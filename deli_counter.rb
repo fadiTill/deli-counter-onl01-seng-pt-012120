@@ -20,6 +20,9 @@ end
 def now_serving(deli)
   if deli.length == 0
 puts "The line is currently empty."
+else
+  puts "Currently serving #{deli[0]}."
+  deli.shift
 end
 end 
   #if deli.length ==0
