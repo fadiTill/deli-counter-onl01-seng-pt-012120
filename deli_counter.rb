@@ -11,10 +11,10 @@ puts str
  end
 end
 
-#def take_a_number(deli, person)
-  #deli << person
+def take_a_number(deli, person)
+  deli << person
   #puts "welcome, #{person}, you are number #{deli,index()} in line"
-#end
+end
 
 #def now_serving(deli)
   #if deli.length ==0
