@@ -7,9 +7,9 @@ else
   deli.each_with_index(1) do |person, i|
     str += " #{i}. #{person}"
   end
-#puts str
- #end
-#end
+puts str
+ end
+end
 
 #def take_a_number(deli, person)
   #deli << person
